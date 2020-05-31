@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("../images/bg.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+form{
+
+background: #dde0fa;
+
+height: 400px;
+
+width: 450px;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+}
+
+
+form h1{
+    
+text-align: center;
+    
+text-transform: capitalize;
+    
+margin-bottom: 30px;
+}
+
+.option{
+
+/* background: aqua; */
+
+height: 35px;
+
+/* position: relative; */
+}
+.facebook{
+
+float: left;
+
+/* position: relative; */
+}
+.facebook input{
+
+height: 30px;
+
+padding-left: 39px;
+
+position: relative;
+
+background: #493A9F;
+
+/* margin-right: 9px; */
+
+margin-left: 5px;
+
+width: 179px;
+
+border: 1px solid;
+
+border-radius: 30px;
+}
+.facebook i{
+    
+position: absolute;
+    
+top: 19%;
+    
+left: 5%;
+    
+/* bottom: 11%; */
+    
+color: white;
+}
+.google{
+
+float: right;
+}
+.google input{
+
+height: 31px;
+
+width: 196px;
+
+background: #7E415A;
+
+position: relative;
+
+padding-left: 6px;
+
+padding-right: 4px;
+
+text-align: center;
+
+margin-right: 5px;
+
+border: 1px solid;
+
+border-radius: 30px;
+}
+.google i{
+    
+color: white;
+    
+position: absolute;
+    
+left: 57%;
+    
+top: 19%;
+}
+
+.facebook input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: white; 
+} 
+.google input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: white; 
+} 
+
+
+h4{
+    
+text-align: center;
+    
+font-size: 30px;
+    
+text-transform: uppercase;
+    
+margin-top: 10px;
+}
+
+.mail_pass input{
+
+height: 32px;
+
+text-transform: capitalize;
+
+margin-bottom: 10px;
+
+position: relative;
+
+top: 30%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+width: 279px;
+
+border: none;
+
+border: 1px solid;
+
+border-radius: 23px;
+
+padding-left: 10px;
+}
+.mail_pass{
+    
+height: 100px;
+    
+/* background: black; */
+    
+position: relative;
+}
+.sign_in{
+
+/* background: aqua; */
+
+height: 40px;
+
+position: relative;
+
+margin-top: 10px;
+}
+.sign_in input{
+    
+height: 93%;
+    
+width: 63%;
+    
+/* margin: auto; */
+    
+position: absolute;
+    
+top: 50%;
+    
+left: 50%;
+    
+transform: translate(-50%, -50%);
+    
+border: none;
+    
+border: 1px solid;
+    
+border-radius: 30px;
+    
+/* margin-top: 20px; */
+    
+text-transform: capitalize;
+    
+background: #00BA45;
+}
+
+.sign_in input[type="submit"]{ /* Firefox, Chrome, Opera */ 
+    color: white; 
+} 
+
+form h5{
+    
+padding-top: 9px;
+    
+font-size: 24px;
+    
+text-transform: capitalize;
+    
+color: #1a6761;
+    
+margin-left: 130px;
+}
+
+.sign_up{
+
+margin-top: 13px;
+
+/* background: azure; */
+
+/* width: 31px; */
+
+height: 32px;
+
+position: relative;
+}
+.sign_up input{
+
+background: #3c3458;
+
+height: 100%;
+
+width: 50%;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+border: 1px solid;
+
+border-radius: 22px;
+}
+.sign_up input[type="submit"]{ /* Firefox, Chrome, Opera */
+    color: azure;
+} 
